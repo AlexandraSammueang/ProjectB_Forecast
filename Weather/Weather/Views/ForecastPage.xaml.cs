@@ -21,14 +21,14 @@ namespace Weather.Views
     public partial class ForecastPage : ContentPage
     {
         OpenWeatherService service;
-        GroupedForecast groupedforecast;
+     
 
         public ForecastPage()
         {
             InitializeComponent();
 
             service = new OpenWeatherService();
-            groupedforecast = new GroupedForecast();
+            
         }
 
         protected override void OnAppearing()
